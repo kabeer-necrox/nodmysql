@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.pre-and-upload{
+    display: flex;
+    justify-content: space-between;
+}
+.name_and-dob{
+    display: flex;
+    justify-content: space-around;
+}
+.cnic_and_email{
+    display: flex;
+    justify-content: space-around;
+}
+.phone_and_address{
+    display: flex;
+    justify-content: space-around;
+
+}
+/* #myInput{
+  
+} */
+.myInput{
+    height: 30px;
+    width: 400px;
+
+}
+
+.myInput:focus{
+    background-color: lightyellow;
+    color: navy;
+width: 400px;
+}
+#edexp{
+    width: 700px;
+    height: 80px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-left: 300px;
+}
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .name_and-dob,
+    .cnic_and_email,
+    .phone_and_address {
+      flex-direction: column;
+    }
+  }
